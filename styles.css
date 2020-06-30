@@ -121,3 +121,54 @@ footer p {
   font-family: 'Roboto', sans-serif;
   
 }
+
+.about {
+  font-size: 24px;
+  width: 940px;
+  margin: 0 auto 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #111111;
+}
+
+.about_text {
+  font-size: 20px;
+  width: 940px;
+  margin: 0 auto;
+  font-family: 'Roboto' , sans-serif;
+  color: #444444;
+}
+
+.beginning {
+  font-size: 20px;
+  width: 940px;
+  margin: 30px auto 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #111111;
+}
+
+.beginning_text {
+  font-size: 20px;
+  width: 940px;
+  margin: 0 auto;
+  font-family: 'Roboto' , sans-serif;
+  color: #444444;
+}
+
+.recipes {
+  font-size: 20px;
+  width: 940px;
+  margin: 30px auto 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #111111;
+}
+
+.recipes_text {
+  font-size: 20px;
+  width: 940px;
+  margin: 0 auto;
+  font-family: 'Roboto' , sans-serif;
+  color: #444444;
+}
