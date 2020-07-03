@@ -179,6 +179,8 @@ footer p {
   height: 100%;
   position: fixed;
   top: 0;
+  opacity: 0;
+  visibility: hidden;
 
 }
 
@@ -189,6 +191,7 @@ footer p {
   margin: 20vh auto;
   border-radius: 16px;
   position: relative;
+
   
 }
 
@@ -201,3 +204,35 @@ bottom: 30px;
 right: 281px;
 cursor: pointer;
 }
+
+.modal img {
+  width: 600px;
+  height: 200px;
+  border-radius: 15px;
+  margin: 30px 30px;
+}
+
+.modal h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.modal p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: center;
+  color: #777777;
+  
+}
+
+/*Modal Overlay Active*/
+
+.modal_overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
