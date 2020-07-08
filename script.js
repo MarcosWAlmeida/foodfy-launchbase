@@ -15,7 +15,15 @@ for (let pic of pics) {
     })
 }
 
+
+
 document.querySelector('.close-modal').addEventListener("click",function(){
-        modalOverlay.classList.remove('active');
+    modalOverlay.classList.remove('active');
 })
+
+window.onclick = function(event) {
+    if (event.target == modalOverlay) {
+        modalOverlay.classList.remove('active');
+    }
+}
 
